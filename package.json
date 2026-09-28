@@ -1,0 +1,16 @@
+{
+  "name": "clinica-da-crianca-clone",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Clone fiel do site Clínica da Criança com contatos fictícios",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check:contacts": "node scripts/verify_contacts.js"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
